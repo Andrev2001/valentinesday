@@ -1,0 +1,72 @@
+/* General Body Styling */
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier", monospace;
+  background-color: #ffe6f2; /* Soft pink background */
+  color: #ff4d79; /* Deeper pink text color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Thank You Text Styling */
+#thankyou {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff1493; /* Bright pink */
+  margin-top: 20px;
+  text-shadow: 3px 3px 6px #ff69b4; /* Enhanced glow effect */
+  background-color: #ffd9e6; /* Light pink highlight */
+  padding: 15px 25px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px #ff4d79;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect for Thank You Text */
+#thankyou:hover {
+  transform: scale(1.05);
+}
+
+/* Rizz (Image) Styling */
+.rizz {
+  margin: 20px 0;
+  border: 5px solid #ff4d79; /* Pink border */
+  border-radius: 15px;
+  box-shadow: 3px 3px 8px #ff4d79; /* Soft shadow */
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Image */
+.rizz:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px #ff1a66;
+}
+
+/* Button Styling */
+.button {
+  padding: 15px 30px;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 20px;
+  font-family: "Courier", monospace;
+  background-color: #ff80bf; /* Light pink button */
+  color: #ffffff; /* White text for contrast */
+  border-radius: 25px;
+  border: 3px solid #ff4d79;
+  box-shadow: 3px 3px 6px #ff4d79;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effect for Button */
+.button:hover {
+  background-color: #ff4d79; /* Darker pink on hover */
+  color: #fff0f5; /* Soft pink text */
+  border: 3px solid #ff1a66; /* Deeper pink border */
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 4px 4px 10px #ff1a66;
+}

@@ -1,0 +1,65 @@
+/* General Page Styling */
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier", monospace;
+  background-color: #ffe6f2; /* Soft pastel pink */
+  color: #ff4d79; /* A deeper pink for contrast */
+}
+
+/* Valentine Question Styling */
+#valentineQuestion {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #ffb6c1; /* Soft pink glow effect */
+}
+
+/* Cute Buttons */
+.answerButton {
+  padding: 12px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px;
+  font-family: "Courier", monospace;
+  margin-bottom: 20px;
+  background-color: #ff80bf; /* Bright pink */
+  color: #ffffff; /* White text for better contrast */
+  border-radius: 20px;
+  border: 3px solid #ff4d79;
+  box-shadow: 3px 3px 5px #ff4d79;
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+
+/* Button Hover Effect */
+.answerButton:hover {
+  background-color: #ff4d79; /* Darker pink */
+  color: #fff0f5; /* Soft pink text */
+  border: 3px solid #ff1a66;
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Image Styling */
+img {
+  height: 400px;
+  width: auto;
+  padding: 10px;
+  border-radius: 20px; /* Soft rounded edges */
+  border: 5px solid #ffb6c1; /* Light pink border */
+  box-shadow: 4px 4px 10px #ff4d79;
+}
+
+/* Animation for "No" Button (Shake Effect) */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+#noButton:hover {
+  animation: shake 0.3s ease-in-out;
+  background-color: #ffccd5;
+  color: #ff4d79;
+}

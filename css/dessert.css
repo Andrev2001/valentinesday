@@ -1,0 +1,109 @@
+/* General Body Styling */
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier", monospace;
+  background-color: #ffe6f2; /* Soft pink background */
+  color: #ff4d79; /* Darker pink text for good contrast */
+}
+
+/* Dessert Question Styling */
+#dessertquestion {
+  font-size: 50px; /* Larger font for emphasis */
+  font-weight: bold;
+  color: #ff1a66; /* Bright pink text */
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px #ffb6c1; /* Subtle glow effect */
+}
+
+/* Dessert Grid Layout */
+.dessert-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  gap: 40px 50px; /* Row and column spacing */
+  max-width: 900px; /* Increased slightly for better fit */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Dessert Item Styling */
+.dessert-item {
+  text-align: center;
+  color: #ff4d79; /* Darker pink text */
+  background-color: #ffd9e6; /* Light pink background */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px #ffb6c1; /* Soft shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effect for Dessert Items */
+.dessert-item:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px #ff4d79;
+}
+
+/* Dessert Item Image Styling */
+.dessert-item img {
+  height: 180px; /* Resized for better spacing */
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #ff4d79; /* Darker pink border */
+  object-fit: cover;
+  padding: 10px;
+  box-shadow: 2px 2px 5px #ff4d79; /* Soft shadow for depth */
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s;
+}
+
+/* Image Hover Effect */
+.dessert-item img:hover {
+  transform: scale(1.1);
+}
+
+/* Label & Checkbox Container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Checkbox Styling */
+.checkbox-container input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2); /* Slightly larger checkbox */
+}
+
+/* Dessert Item Label Styling */
+.checkbox-container label {
+  font-size: 18px; /* Adjusted size */
+  color: #ff1a66; /* Bright pink for labels */
+  display: flex;
+  align-items: center;
+}
+
+/* Button Styling */
+.button {
+  padding: 12px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px;
+  font-family: "Courier", monospace;
+  margin-bottom: 20px;
+  background-color: #ff80bf; /* Light pink button */
+  color: #ffffff; /* White text */
+  border-radius: 20px;
+  border: 3px solid #ff4d79; /* Darker pink border */
+  box-shadow: 2px 2px 5px #ff4d79; /* Soft shadow effect */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button Hover Effect */
+.button:hover {
+  background-color: #ff4d79; /* Darker pink on hover */
+  color: #fff0f5; /* Soft pink text */
+  border: 3px solid #ff1a66; /* Deep pink border */
+  transform: scale(1.1); /* Slight zoom effect */
+}

@@ -1,0 +1,96 @@
+/* General Body Styling */
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier", monospace;
+  background-color: #ffe6f2; /* Soft pink background */
+  color: #ff4d79; /* Darker pink text for good contrast */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  padding: 20px;
+}
+
+/* Main Heading */
+h1 {
+  font-size: 50px; /* Larger heading for emphasis */
+  color: #ff1a66; /* Bright pink */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px #ffb6c1; /* Subtle glow effect */
+}
+
+/* Header for the Form Section */
+form .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 25px; /* Slightly larger font */
+  margin-bottom: 25px;
+  color: #ff4d79; /* Darker pink for text */
+  text-align: center;
+  text-shadow: 1px 1px 3px #ffb6c1;
+}
+
+/* Form Group Styling */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px; /* Adjusted font size for readability */
+  margin-bottom: 15px;
+  color: #ff4d79; /* Darker pink text */
+  background-color: #ffd9e6; /* Light pink form background */
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #ffb6c1;
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Button Styling */
+.button {
+  padding: 12px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px;
+  font-family: "Courier", monospace;
+  background-color: #ff80bf; /* Light pink background */
+  color: #ffffff; /* White text */
+  border-radius: 20px;
+  border: 3px solid #ff4d79; /* Darker pink border */
+  box-shadow: 2px 2px 5px #ff4d79; /* Soft shadow effect */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button Hover Effect */
+.button:hover {
+  background-color: #ff4d79; /* Darker pink on hover */
+  color: #fff0f5; /* Soft pink text */
+  border: 3px solid #ff1a66; /* Deep pink border */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Input Field (Date Picker) Styling */
+input[type="date"] {
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px;
+  font-family: "Courier", monospace;
+  background-color: #ffb6c1; /* Softer pink input field */
+  color: #ffffff; /* White text in input */
+  border-radius: 15px;
+  border: 2px solid #ff4d79; /* Darker pink border */
+  box-shadow: 1px 1px 4px #ff4d79;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Input Field Hover & Focus Effect */
+input[type="date"]:hover, 
+input[type="date"]:focus {
+  background-color: #ff80bf; /* Slightly darker pink on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  outline: none;
+}

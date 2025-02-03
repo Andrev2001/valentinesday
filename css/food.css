@@ -1,0 +1,85 @@
+/* General Body Styling */
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier", monospace;
+  background-color: #ffe6f2; /* Soft pink background */
+  color: #ff4d79; /* Darker pink text for good contrast */
+}
+
+/* Food Question Styling */
+#foodquestion {
+  font-size: 60px; /* Larger font for emphasis */
+  font-weight: bold;
+  color: #ff1a66; /* Bright pink text */
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px #ffb6c1; /* Subtle glow effect */
+}
+
+/* Food Item Styling */
+.food-item {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+  color: #ff4d79; /* Darker pink text */
+  background-color: #ffd9e6; /* Light pink background */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px #ffb6c1; /* Soft shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effect for Food Items */
+.food-item:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px #ff4d79;
+}
+
+/* Food Item Image Styling */
+.food-item img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  border: 5px solid #ff4d79; /* Darker pink border */
+  object-fit: cover;
+  padding: 12px;
+  box-shadow: 2px 2px 5px #ff4d79; /* Soft shadow for depth */
+  transition: transform 0.3s;
+}
+
+/* Image Hover Effect */
+.food-item img:hover {
+  transform: scale(1.1);
+}
+
+/* Food Item Label Styling */
+.food-item label {
+  display: block;
+  font-size: 20px;
+  color: #ff1a66; /* Bright pink for labels */
+  margin-top: 10px;
+}
+
+/* Button Styling */
+.button {
+  padding: 12px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px;
+  font-family: "Courier", monospace;
+  margin-bottom: 20px;
+  background-color: #ff80bf; /* Light pink button */
+  color: #ffffff; /* White text */
+  border-radius: 20px;
+  border: 3px solid #ff4d79; /* Darker pink border */
+  box-shadow: 2px 2px 5px #ff4d79; /* Soft shadow effect */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button Hover Effect */
+.button:hover {
+  background-color: #ff4d79; /* Darker pink on hover */
+  color: #fff0f5; /* Soft pink text */
+  border: 3px solid #ff1a66; /* Deep pink border */
+  transform: scale(1.1); /* Slight zoom effect */
+}

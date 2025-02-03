@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose Your Dessert!</title>
+    <link rel="stylesheet" href="../css/dessert.css" />
+    <style>
+      /* Updated CSS */
+      .dessert-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px 50px;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .dessert-item {
+        text-align: center;
+        color: #ff4d79;
+      }
+
+      .dessert-item img {
+        height: 220px; /* Increased size */
+        width: 220px; /* Increased size */
+        border-radius: 50%;
+        border: 6px solid #ff4d79; /* Thicker border */
+        object-fit: cover;
+        padding: 10px;
+        box-shadow: 2px 2px 5px #ff4d79;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .dessert-item label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 18px;
+        color: #ff1a66;
+        margin-top: 10px;
+      }
+
+      .dessert-item input[type="radio"] {
+        transform: scale(1.2);
+      }
+
+      .button {
+        padding: 12px 25px;
+        font-size: 20px;
+        cursor: pointer;
+        margin: 15px;
+        font-family: "Courier", monospace;
+        margin-bottom: 20px;
+        background-color: #ff80bf;
+        color: #ffffff;
+        border-radius: 20px;
+        border: 3px solid #ff4d79;
+        box-shadow: 2px 2px 5px #ff4d79;
+        transition: background-color 0.3s, transform 0.3s;
+      }
+
+      .button:hover {
+        background-color: #ff4d79;
+        color: #fff0f5;
+        border: 3px solid #ff1a66;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dessertquestion">What sweet treat would you like for Valentine's Day?</div>
+
+    <div class="dessert-container">
+      <div class="dessert-item">
+        <img src="../food/cookie_dough_ice_cream.jpg" alt="Ben and Jerry's Cookie Dough Ice Cream" />
+        <label for="cookie_dough_ice_cream">
+          <input type="radio" id="cookie_dough_ice_cream" name="dessert" value="Ben and Jerry's Cookie Dough Ice Cream" />
+          Cookie Dough Ice Cream
+        </label>
+      </div>
+
+      <div class="dessert-item">
+        <img src="../food/nerds_gummy_clusters.jpg" alt="Nerds Gummy Clusters" />
+        <label for="nerds_gummy_clusters">
+          <input type="radio" id="nerds_gummy_clusters" name="dessert" value="Nerds Gummy Clusters" />
+          Nerds Gummy Clusters
+        </label>
+      </div>
+
+      <div class="dessert-item">
+        <img src="../food/tiramisu.jpg" alt="Tiramisu" />
+        <label for="tiramisu">
+          <input type="radio" id="tiramisu" name="dessert" value="Tiramisu" />
+          Tiramisu
+        </label>
+      </div>
+
+      <div class="dessert-item">
+        <img src="../food/chocolate_cake.jpg" alt="Chocolate Cake" />
+        <label for="chocolate_cake">
+          <input type="radio" id="chocolate_cake" name="dessert" value="Chocolate Cake" />
+          Chocolate Cake
+        </label>
+      </div>
+
+      <div class="dessert-item">
+        <img src="../food/pizookie.jpg" alt="Pizookie" />
+        <label for="pizookie">
+          <input type="radio" id="pizookie" name="dessert" value="Pizookie" />
+          Pizookie
+        </label>
+      </div>
+
+      <div class="dessert-item">
+        <img src="../food/frozen_yogurt.jpg" alt="Frozen Yogurt" />
+        <label for="frozen_yogurt">
+          <input type="radio" id="frozen_yogurt" name="dessert" value="Frozen Yogurt" />
+          Frozen Yogurt
+        </label>
+      </div>
+    </div>
+
+    <button class="button" onclick="location.href='activities.html'">Next</button>
+  </body>
+</html>

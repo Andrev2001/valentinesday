@@ -1,0 +1,83 @@
+/* General Body Styling */
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier", monospace;
+  background-color: #ffe6f2; /* Soft pink background */
+  color: #ff4d79; /* Darker pink text for good contrast */
+}
+
+/* Activity Question Styling */
+#activityquestion {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #ff1a66; /* Bright pink */
+  text-shadow: 2px 2px 5px #ffb6c1; /* Subtle glow effect */
+}
+
+/* Activity Item Styling */
+.activity-item {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+  color: #ff4d79; /* Darker pink text */
+  background-color: #ffd9e6; /* Light pink background */
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #ffb6c1;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effect for Activity Items */
+.activity-item:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 8px #ff4d79;
+}
+
+/* Activity Item Image Styling */
+.activity-item img {
+  height: 220px; /* Slightly larger */
+  width: 220px;
+  border-radius: 50%;
+  border: 6px solid #ff4d79; /* Darker pink border */
+  object-fit: cover;
+  padding: 10px;
+  box-shadow: 2px 2px 5px #ff4d79;
+  transition: transform 0.3s;
+}
+
+/* Image Hover Effect */
+.activity-item img:hover {
+  transform: scale(1.1);
+}
+
+/* Activity Item Label Styling */
+.activity-item label {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #ff1a66; /* Bright pink for labels */
+}
+
+/* Button Styling */
+.button {
+  padding: 12px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px;
+  font-family: "Courier", monospace;
+  background-color: #ff80bf; /* Light pink button */
+  color: #ffffff; /* White text */
+  border-radius: 20px;
+  border: 3px solid #ff4d79; /* Darker pink border */
+  box-shadow: 2px 2px 5px #ff4d79; /* Soft shadow effect */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button Hover Effect */
+.button:hover {
+  background-color: #ff4d79; /* Darker pink on hover */
+  color: #fff0f5; /* Soft pink text */
+  border: 3px solid #ff1a66; /* Deep pink border */
+  transform: scale(1.1); /* Slight zoom effect */
+}
